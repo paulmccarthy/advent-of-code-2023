@@ -54,11 +54,5 @@ for (let i = 0; i < parsedInput.length; i += 1) {
     sum += num;
     console.log(i, input[i], line, num, sum);
 }
-// parsedInput.forEach((line) => {
-//     const filtered = filterLetters(line);
-//     const num = findNum(filtered);
-//     sum += num;
-//     console.log(line, num, sum);
-// });
 
 console.log(sum);
